@@ -11,7 +11,7 @@ REQUIRES_PYTHON = '>=3.8.6'
 VERSION = '0.0.1'
 
 try:
-    with io.open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
+    with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
         LONG_DESCRIPTION = '\n' + f.read()
 except FileNotFoundError:
     LONG_DESCRIPTION = DESCRIPTION
