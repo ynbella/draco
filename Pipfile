@@ -10,6 +10,10 @@ matplotlib = "*"
 numpy = "==1.19.3"
 scikit-image = "*"
 graph-tools = "*"
+tqdm = "*"
+photutils = "*"
+scipy = "*"
+colorama = "*"
 
 [dev-packages]
 
